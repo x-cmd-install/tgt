@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.0.0-rc1"
   latestRelease: "v1.0.0-rc1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:10:28Z
+  collectedAt: 2026-09-10T22:46:22Z
 timeline:
   created: 2024-02-15
   lastCommit: 2026-09-07
@@ -86,7 +86,7 @@ total:
   commit: 918
 ---
 path: /home/runner/.x-repo/github.com/FedericoBruzzone/tgt
-collectedAt: 2026-09-10T21:10:30Z
+collectedAt: 2026-09-10T22:46:25Z
 loc:
   Rust:
     code: 18821
