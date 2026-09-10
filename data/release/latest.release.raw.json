@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 19429999,
       "digest": "sha256:80b5e84520a36c2f7c3d3a11cec89c9edbe15123b724e25b64204a7db2ae225d",
-      "download_count": 478,
+      "download_count": 480,
       "created_at": "2026-05-25T07:40:28Z",
       "updated_at": "2026-05-25T07:40:29Z",
       "browser_download_url": "https://github.com/FedericoBruzzone/tgt/releases/download/v1.0.0-rc1/tgt-v1.0.0-rc1-x86_64-unknown-linux-gnu.tar.gz"
