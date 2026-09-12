@@ -1,76 +1,35 @@
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.80
-  origversion: 1:1.0.80-1+deb11u1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.85
-  origversion: 1:1.0.85-1.3
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.85
-  origversion: 1:1.0.85-1.3
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-glusterfs
-    - tgt-rbd
-  visiblename: tgt
-  version: 1.0.74
-  origversion: 1:1.0.74-1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: parabola
-  subrepo: extra
-  srcname: tgt
-  binname: tgt
-  visiblename: tgt
-  version: 1.0.97
-  origversion: 1.0.97-2
-  status: newest
-  summary: iSCSI Target STGT for Arch Linux
-  licenses:
-    - GPL-2.0-only
-- repo: pardus_21
+- repo: raspbian_stable
   subrepo: main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.85
+  origversion: 1:1.0.85-1.3
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: raspbian_testing
+  subrepo: main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.85
+  origversion: 1:1.0.85-1.3
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: tgt
   binnames:
     - tgt
@@ -102,7 +61,7 @@
   binname: tgt
   visiblename: tgt
   version: 1.0.97
-  origversion: 1.0.97-2
+  origversion: 1.0.97-3
   status: newest
   summary: iSCSI Target STGT for Arch Linux
   licenses:
@@ -255,21 +214,6 @@
     - apoikos@debian.org
   categories:
     - net
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.80
-  origversion: 1:1.0.80-1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: tgt
@@ -299,6 +243,21 @@
     - GPL-2
   categories:
     - sys-block
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-glusterfs
+    - tgt-rbd
+  visiblename: tgt
+  version: 1.0.80
+  origversion: 1:1.0.80-1
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
 - repo: gentoo
   srcname: sys-block/tgt
   visiblename: sys-block/tgt
@@ -393,21 +352,6 @@
     - GPL-2
   categories:
     - sys-block
-- repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: tgt
-  binnames:
-    - tgt
-  visiblename: tgt
-  version: 1.0.43
-  origversion: 1:1.0.43-0ubuntu4.1~14.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - ben@decadent.org.uk
-    - fs@debian.org
-  categories:
-    - net
 - repo: mageia_9
   subrepo: core/release
   srcname: tgt
@@ -517,6 +461,21 @@
     - git@danielschaefer.me
   licenses:
     - GPL-2.0-only
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-glusterfs
+    - tgt-rbd
+  visiblename: tgt
+  version: 1.0.85
+  origversion: 1:1.0.85-1.3
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
 - repo: nix_stable_26_05
   srcname: tgt
   visiblename: tgt
@@ -669,13 +628,24 @@
     - m.storchak@gmail.com
   categories:
     - net
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: parabola
+  subrepo: extra
+  srcname: tgt
+  binname: tgt
+  visiblename: tgt
+  version: 1.0.97
+  origversion: 1.0.97-2
+  status: newest
+  summary: iSCSI Target STGT for Arch Linux
+  licenses:
+    - GPL-2.0-only
+- repo: pardus_21
+  subrepo: main
   srcname: tgt
   binnames:
     - tgt
-    - tgt-glusterfs
     - tgt-rbd
+    - tgt-glusterfs
   visiblename: tgt
   version: 1.0.80
   origversion: 1:1.0.80-1
@@ -684,16 +654,61 @@
     - apoikos@debian.org
   categories:
     - net
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.80
+  origversion: 1:1.0.80-1+deb11u1
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.85
+  origversion: 1:1.0.85-1.3
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.85
+  origversion: 1:1.0.85-1.3
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: tgt
   binnames:
     - tgt
     - tgt-glusterfs
     - tgt-rbd
   visiblename: tgt
-  version: 1.0.85
-  origversion: 1:1.0.85-1.3
+  version: 1.0.74
+  origversion: 1:1.0.74-1
   status: outdated
   maintainers:
     - apoikos@debian.org
@@ -709,36 +724,6 @@
   visiblename: tgt
   version: 1.0.85
   origversion: 1:1.0.85-1+deb12u1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: raspbian_stable
-  subrepo: main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.85
-  origversion: 1:1.0.85-1.3
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.85
-  origversion: 1:1.0.85-1.3
   status: outdated
   maintainers:
     - apoikos@debian.org
@@ -845,6 +830,21 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - universe/net
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+  visiblename: tgt
+  version: 1.0.43
+  origversion: 1:1.0.43-0ubuntu4.1~14.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - ben@decadent.org.uk
+    - fs@debian.org
+  categories:
+    - net
 - repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: tgt
