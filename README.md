@@ -37,7 +37,7 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,012 · **Forks**: 50 · **Open issues**: 54 · **Contributors**: 16
+- **Stars**: 1,011 · **Forks**: 50 · **Open issues**: 54 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 0 | 3 | 0 | 0 | 0 | 3 |
-| last60d | 2026-07-14 | 0 | 15 | 0 | 0 | 0 | 17 |
-| 90d | 2026-06-14 | 0 | 26 | 0 | 0 | 0 | 31 |
-| last180d | 2026-03-16 | 1 | 56 | 0 | 7 | 1 | 107 |
-| 360d | 2025-09-17 | 1 | 140 | 0 | 15 | 5 | 350 |
-| last720d | 2024-09-22 | 1 | 245 | 1 | 28 | 11 | 580 |
+| 30d | 2026-08-14 | 0 | 3 | 0 | 0 | 0 | 2 |
+| last60d | 2026-07-15 | 0 | 13 | 0 | 0 | 0 | 10 |
+| 90d | 2026-06-15 | 0 | 25 | 0 | 0 | 0 | 30 |
+| last180d | 2026-03-17 | 1 | 55 | 0 | 7 | 1 | 90 |
+| 360d | 2025-09-18 | 1 | 140 | 0 | 15 | 5 | 347 |
+| last720d | 2024-09-23 | 1 | 244 | 1 | 28 | 11 | 580 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for tgt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T05:34:26Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T06:00:51Z._
