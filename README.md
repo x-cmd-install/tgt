@@ -32,7 +32,7 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.0.0-rc1` (2026-05-25)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-21
 - **Assets in release**: 4
 
 ## Popularity
@@ -41,18 +41,18 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 2 · **Merged PRs**: 293 · **Open PRs**: 1 · **Closed issues**: 40 · **Open issues**: 14 · **Commits**: 922
+- **Releases**: 2 · **Merged PRs**: 295 · **Open PRs**: 1 · **Closed issues**: 40 · **Open issues**: 14 · **Commits**: 924
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 6 | 0 | 0 | 0 | 6 |
-| last60d | 2026-07-23 | 0 | 13 | 0 | 0 | 0 | 9 |
-| 90d | 2026-06-23 | 0 | 25 | 0 | 0 | 0 | 30 |
-| last180d | 2026-03-25 | 1 | 51 | 0 | 7 | 1 | 90 |
-| 360d | 2025-09-26 | 1 | 141 | 0 | 15 | 5 | 349 |
-| last720d | 2024-10-01 | 1 | 248 | 1 | 25 | 11 | 582 |
+| 30d | 2026-08-23 | 0 | 8 | 0 | 0 | 0 | 8 |
+| last60d | 2026-07-24 | 0 | 15 | 0 | 0 | 0 | 11 |
+| 90d | 2026-06-24 | 0 | 27 | 0 | 0 | 0 | 32 |
+| last180d | 2026-03-26 | 1 | 52 | 0 | 6 | 1 | 92 |
+| 360d | 2025-09-27 | 1 | 143 | 0 | 15 | 5 | 351 |
+| last720d | 2024-10-02 | 1 | 250 | 1 | 24 | 11 | 584 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for tgt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T06:02:09Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T06:10:46Z._
