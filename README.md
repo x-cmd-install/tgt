@@ -4,7 +4,7 @@
 
 TUI for Telegram written in Rust 🦀
 
-[![x-cmd/install — tgt Code Quality Monitoring Repo Card](https://repo.x-cmd.io/tgt.svg)](https://x-cmd.com/install/tgt)
+[![x-cmd/install — tgt Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/tgt.svg)](https://x-cmd.com/install/tgt)
 
 ## Install
 
@@ -47,12 +47,12 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 8 | 0 | 0 | 0 | 8 |
-| last60d | 2026-07-24 | 0 | 15 | 0 | 0 | 0 | 11 |
-| 90d | 2026-06-24 | 0 | 27 | 0 | 0 | 0 | 32 |
-| last180d | 2026-03-26 | 1 | 52 | 0 | 6 | 1 | 92 |
-| 360d | 2025-09-27 | 1 | 143 | 0 | 15 | 5 | 351 |
-| last720d | 2024-10-02 | 1 | 250 | 1 | 24 | 11 | 584 |
+| 30d | 2026-08-24 | 0 | 8 | 0 | 0 | 0 | 8 |
+| last60d | 2026-07-25 | 0 | 15 | 0 | 0 | 0 | 11 |
+| 90d | 2026-06-25 | 0 | 27 | 0 | 0 | 0 | 32 |
+| last180d | 2026-03-27 | 1 | 52 | 0 | 4 | 1 | 92 |
+| 360d | 2025-09-28 | 1 | 143 | 0 | 15 | 5 | 351 |
+| last720d | 2024-10-03 | 1 | 250 | 1 | 24 | 11 | 584 |
 
 ## Release assets
 
@@ -72,4 +72,4 @@ Install metadata for tgt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:10:46Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:11:54Z._
