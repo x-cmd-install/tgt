@@ -1,30 +1,3 @@
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-dbg
-  visiblename: tgt
-  version: 1.0.72
-  origversion: 1:1.0.72-1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - net
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/tgt
-  binname: tgt
-  visiblename: tgt
-  version: 1.0.93
-  origversion: 1.0.93-r2
-  status: outdated
-  maintainers:
-    - m.storchak@gmail.com
-  categories:
-    - net
 - repo: aosc
   srcname: app-admin/tgt
   binname: tgt
@@ -49,21 +22,6 @@
   licenses:
     - GPL-2.0-only
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.80
-  origversion: 1:1.0.80-1+deb11u1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
-  categories:
-    - net
-- repo: debian_11
   subrepo: bullseye/main
   srcname: tgt
   binnames:
@@ -78,19 +36,19 @@
     - apoikos@debian.org
   categories:
     - net
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: tgt
   binnames:
     - tgt
     - tgt-rbd
-    - tgt-dbg
+    - tgt-glusterfs
   visiblename: tgt
-  version: 1.0.63
-  origversion: 1:1.0.63-1ubuntu1.1
+  version: 1.0.80
+  origversion: 1:1.0.80-1+deb11u1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - apoikos@debian.org
   categories:
     - net
 - repo: debian_12
@@ -168,19 +126,6 @@
     - apoikos@debian.org
   categories:
     - net
-- repo: deepin_unstable
-  subrepo: main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
-  visiblename: tgt
-  version: 1.0.74
-  origversion: 1:1.0.74-1
-  status: outdated
-  maintainers:
-    - apoikos@debian.org
 - repo: deepin_23
   subrepo: main
   srcname: tgt
@@ -241,17 +186,6 @@
     - apoikos@debian.org
   categories:
     - net
-- repo: parabola
-  subrepo: extra
-  srcname: tgt
-  binname: tgt
-  visiblename: tgt
-  version: 1.0.98
-  origversion: 1.0.98-1
-  status: newest
-  summary: iSCSI Target STGT for Arch Linux
-  licenses:
-    - GPL-2.0-only
 - repo: gentoo
   srcname: sys-block/tgt
   visiblename: sys-block/tgt
@@ -526,11 +460,11 @@
   categories:
     - System/Daemons
 - repo: opensuse_leap_15_6
-  subrepo: updates/sle
+  subrepo: main/oss
   srcname: tgt
   visiblename: tgt
   version: 1.0.85
-  origversion: 1.0.85-150600.10.3.1
+  origversion: 1.0.85-150600.8.4
   status: outdated
   summary: Generic Linux target framework (tgt)
   licenses:
@@ -538,11 +472,11 @@
   categories:
     - System/Daemons
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
+  subrepo: updates/sle
   srcname: tgt
   visiblename: tgt
   version: 1.0.85
-  origversion: 1.0.85-150600.8.4
+  origversion: 1.0.85-150600.10.3.1
   status: outdated
   summary: Generic Linux target framework (tgt)
   licenses:
@@ -577,21 +511,29 @@
     - m.storchak@gmail.com
   categories:
     - net
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: tgt
-  binnames:
-    - tgt
-    - tgt-rbd
-    - tgt-glusterfs
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/tgt
+  binname: tgt
   visiblename: tgt
-  version: 1.0.80
-  origversion: 1:1.0.80-1+deb11u1
+  version: 1.0.93
+  origversion: 1.0.93-r2
   status: outdated
   maintainers:
-    - apoikos@debian.org
+    - m.storchak@gmail.com
   categories:
     - net
+- repo: parabola
+  subrepo: extra
+  srcname: tgt
+  binname: tgt
+  visiblename: tgt
+  version: 1.0.98
+  origversion: 1.0.98-1
+  status: newest
+  summary: iSCSI Target STGT for Arch Linux
+  licenses:
+    - GPL-2.0-only
 - repo: pardus_21
   subrepo: main
   srcname: tgt
@@ -602,6 +544,21 @@
   visiblename: tgt
   version: 1.0.80
   origversion: 1:1.0.80-1
+  status: outdated
+  maintainers:
+    - apoikos@debian.org
+  categories:
+    - net
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-glusterfs
+  visiblename: tgt
+  version: 1.0.80
+  origversion: 1:1.0.80-1+deb11u1
   status: outdated
   maintainers:
     - apoikos@debian.org
@@ -800,6 +757,21 @@
   categories:
     - net
 - repo: ubuntu_16_04
+  subrepo: xenial-updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+    - tgt-dbg
+  visiblename: tgt
+  version: 1.0.63
+  origversion: 1:1.0.63-1ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+- repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: tgt
   binnames:
@@ -814,15 +786,16 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - net
-- repo: ubuntu_20_04
-  subrepo: focal-updates/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: tgt
   binnames:
     - tgt
     - tgt-rbd
+    - tgt-dbg
   visiblename: tgt
-  version: 1.0.79
-  origversion: 1:1.0.79-2ubuntu1.1
+  version: 1.0.72
+  origversion: 1:1.0.72-1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -837,6 +810,20 @@
   visiblename: tgt
   version: 1.0.79
   origversion: 1:1.0.79-2ubuntu1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - net
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: tgt
+  binnames:
+    - tgt
+    - tgt-rbd
+  visiblename: tgt
+  version: 1.0.79
+  origversion: 1:1.0.79-2ubuntu1.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
