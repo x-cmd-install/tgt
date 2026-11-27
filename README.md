@@ -37,7 +37,7 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,051 · **Forks**: 56 · **Open issues**: 55 · **Contributors**: 16
+- **Stars**: 1,052 · **Forks**: 56 · **Open issues**: 55 · **Contributors**: 16
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 4 | 1 | 0 | 1 | 4 |
-| last60d | 2026-09-27 | 0 | 14 | 1 | 0 | 1 | 14 |
-| 90d | 2026-08-28 | 0 | 22 | 1 | 0 | 1 | 23 |
-| last180d | 2026-05-30 | 0 | 50 | 1 | 0 | 1 | 55 |
-| 360d | 2025-12-01 | 1 | 142 | 1 | 12 | 6 | 351 |
-| last720d | 2024-12-06 | 1 | 242 | 1 | 17 | 11 | 548 |
+| 30d | 2026-10-28 | 0 | 4 | 1 | 0 | 1 | 4 |
+| last60d | 2026-09-28 | 0 | 13 | 1 | 0 | 1 | 14 |
+| 90d | 2026-08-29 | 0 | 22 | 1 | 0 | 1 | 23 |
+| last180d | 2026-05-31 | 0 | 50 | 1 | 0 | 1 | 55 |
+| 360d | 2025-12-02 | 1 | 142 | 1 | 12 | 6 | 351 |
+| last720d | 2024-12-07 | 1 | 242 | 1 | 17 | 11 | 548 |
 
 ## Release assets
 
@@ -63,22 +63,6 @@ Total: **19,766** lines of code across **85** files in the top 5 languages.
 | [tgt-v1.0.0-rc1-x86_64-pc-windows-msvc.tar.gz](https://github.com/FedericoBruzzone/tgt/releases/download/v1.0.0-rc1/tgt-v1.0.0-rc1-x86_64-pc-windows-msvc.tar.gz) | 15.4 MiB | `native/win/x64` |
 | [tgt-v1.0.0-rc1-x86_64-unknown-linux-gnu.tar.gz](https://github.com/FedericoBruzzone/tgt/releases/download/v1.0.0-rc1/tgt-v1.0.0-rc1-x86_64-unknown-linux-gnu.tar.gz) | 18.5 MiB | `native/linux/x64/glibc` |
 
-## Distribution status
-
-Reported by **67** distros on [repology.org](https://repology.org/project/tgt). **5** are ✅ on the latest upstream release, **59** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.0.85` | ⚠️ outdated |
-| Debian 14 | `1.0.85` | ⚠️ outdated |
-| Debian 13 | `1.0.85` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.0.85` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.0.85` | ⚠️ outdated |
-| Arch | `1.0.98` | ✅ latest |
-| Nix unstable | `1.0.95` | ⚠️ outdated |
-| Void | `1.0.97` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.0.97` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for tgt lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `tgt` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -88,4 +72,4 @@ Install metadata for tgt lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:59:31Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T10:13:21Z._
